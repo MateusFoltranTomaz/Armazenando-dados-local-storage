@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.info{
+    margin-left: 10%;
+    background: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.Marca, .Modelo{
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+
+input{
+    border-color: black;
+    border-radius: 5px;
+}
+
+button{
+    width: 75%;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(18, 131, 217);
+    color: #ffffff;
+    border-radius: 4px;
+    transition-duration: 0.4s;   
+}
+
+button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+  }
